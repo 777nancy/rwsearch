@@ -4,16 +4,14 @@ Constant types in Python.
 import os
 import sys
 
-# If modifying these scopes, delete the file token.pickle.
-SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
-
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-CONFIG_DIR = os.path.join(PROJECT_ROOT, 'config')
-DEFAULT_CONFIG_JSON = os.path.join(CONFIG_DIR, 'rpgetter.json')
+PROJECT_ROOT = os.path.dirname(os.path.dirname(__file__))
 
 LIB_DIR = os.path.join(PROJECT_ROOT, 'lib')
-CHROME_DRIVER_PATH = os.path.join(LIB_DIR, 'chromedriver')
-RAKUTEN_ADD_ON_PATH = os.path.join(LIB_DIR, 'extension_4_648_0_0.crx')
+CHROME_DRIVER = os.path.join(LIB_DIR, 'chromedriver')
+R_ADD_ON = os.path.join(LIB_DIR, 'extension_4_648_0_0.crx')
+
+LOGIN_URL = 'https://grp03.id.rakuten.co.jp/rms/nid/login?service_id=r12&return_url=login?tool_id=1&tp=&id='
+WEB_SEARCH_URL = 'https://websearch.rakuten.co.jp'
 
 
 class Constant:
