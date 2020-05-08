@@ -17,5 +17,6 @@ setup(
             "rwsearch=rwsearch.rwsearch:main"
         ]
     },
+    python_requires='>=3.6',
     install_requires=_requires_from_file('requirements.txt'),
 )
