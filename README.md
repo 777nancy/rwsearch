@@ -1,5 +1,5 @@
 # rwsearch
-<font color="Red">某検索サイト</font>の検索口数をGET！
+Rウェブ検索サイトの検索口数をGET！
 ## 特徴
 seleniumを利用して、アカウントの`ログイン`と`検索`を行います
 
@@ -15,7 +15,9 @@ rwsearch -u user_id -p password [-n NUM] [--chrome-driver CHROME_DRIVER] [--add-
 ## 備考
 ```
 -n, --num      : 検索回数(デフォルト: 30)
---chrome-driver: Chromeドライバー(デフォルト: Chrome81)
+--chrome-driver: Chromeドライバー(デフォルト: 81.0.4044.138)
 --add-on       : Chromeの.crx形式のアドオン用ファイル(デフォルト: 2020/05/08時点のファイル)
 --debug        : デバッグモードの有無(デフォルト: False)
 ```
+## リンク
+[Chromeドライバ](https://chromedriver.chromium.org/downloads)
